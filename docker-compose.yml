@@ -12,7 +12,7 @@ services:
       - php
 
   php:
-    image: php:8.2-fpm
+    build: .
     volumes:
       - ./src:/var/www/html
 
